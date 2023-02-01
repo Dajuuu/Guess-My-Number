@@ -69,3 +69,7 @@ document.querySelector(".again").addEventListener("click", function () {
   document.querySelector(".again").style.display = "none";
   document.querySelector(".message-bottom").style.display = "inline";
 });
+
+const newFeature = function () {
+  console.log("test new feature");
+};
